@@ -29,7 +29,7 @@ INSERT INTO users (id, name, password, email, start_date, end_date, is_admin)
 VALUES (1, 'Admin', '$2y$10$/vC1UKrEJQUZLN2iM3U9re/4DQP74sXCOVXlYXe/j9zuv1/MHD4o.', 'admin@info.com.br', '2000-1-1', null, 1);
 
 INSERT INTO users (id, name, password, email, start_date, end_date, is_admin)
-VALUES (2, 'Michel', '$2y$10$/vC1UKrEJQUZLN2iM3U9re/4DQP74sXCOVXlYXe/j9zuv1/MHD4o.', 'michel@info.com.br', '2000-1-1', null, 1);
+VALUES (2, 'Michel', '$2y$10$/vC1UKrEJQUZLN2iM3U9re/4DQP74sXCOVXlYXe/j9zuv1/MHD4o.', 'michel@info.com.br', '2000-1-1', '1999-1-1', 0);
 
 INSERT INTO users (id, name, password, email, start_date, end_date, is_admin)
 VALUES (3, 'Maria', '$2y$10$/vC1UKrEJQUZLN2iM3U9re/4DQP74sXCOVXlYXe/j9zuv1/MHD4o.', 'maria@info.com.br', '2000-1-1', null, 0);
@@ -38,4 +38,8 @@ INSERT INTO users (id, name, password, email, start_date, end_date, is_admin)
 VALUES (4, 'Gabriel', '$2y$10$/vC1UKrEJQUZLN2iM3U9re/4DQP74sXCOVXlYXe/j9zuv1/MHD4o.', 'gabriel@info.com.br', '2000-1-1', null, 0);
 
 INSERT INTO users (id, name, password, email, start_date, end_date, is_admin)
-VALUES (5, 'Mikael', '$2y$10$/vC1UKrEJQUZLN2iM3U9re/4DQP74sXCOVXlYXe/j9zuv1/MHD4o.', 'mikael@info.com.br', '2000-1-1', '2019-1-1', 0);
+VALUES (5, 'Mikael', '$2y$10$/vC1UKrEJQUZLN2iM3U9re/4DQP74sXCOVXlYXe/j9zuv1/MHD4o.', 'mikael@info.com.br', '2000-1-1', null, 0);
+
+INSERT INTO users (id, name, password, email, start_date, end_date, is_admin)
+VALUES (5, 'Eduarda', '$2y$10$/vC1UKrEJQUZLN2iM3U9re/4DQP74sXCOVXlYXe/j9zuv1/MHD4o.', 'eduarda@info.com.br', '2000-1-1', null, 0);
+
